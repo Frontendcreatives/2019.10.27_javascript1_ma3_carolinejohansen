@@ -1,0 +1,51 @@
+JavaScript MA03
+----------------
+Level 2
+
+1. In your own words, describe what JavaScript Code Style is.
+
+Code Style refers to how you organize/structure your code to make it as clean and easy to read as possible. Documented rules on how to write your code consistently securing the quality through readability and easier maintenance.
+Javascript has many Code Style Guides. Google Code Style Guide is widely used and recommended.
+
+
+2. What is a Regular Expression?
+
+Nickname: "regex", are expressions which use special codes to detect patterns on strings.
+E.g testing if the string is only text, if it is containing a certain number of numbers or validating email addresses.
+Regex are used with methods to search, replace, and extract information out of strings.
+
+
+3. What does the .random() method do?
+
+The random() method is a math object within Javascript which, within defined values, returns a random number.
+
+
+4. What does the .sort() method do?
+
+This method sorts values in an Array. Alphabetic or numeric order and either ascending or descending.
+
+
+5. What does the .reverse() method do?
+
+ This method reverses the order of the elements in an Array. This method will also change the original array, not just making a new copy of the requested new order.
+
+
+6. List two examples of bad JavaScript code.
+
+if('10' == 10) return true; -> Using double equals sign - Javascript will force the values to be equal, resulting in an inaccurate test. Will bypass the fact that the first value is a string and set it equal to the second value, which is a number.
+Global variables are not a popular choice to some developers, as the code takes longer time to find and is easily overwritten.
+
+
+7. What data types can a JSON object contain?
+
+Keys must be strings, and values must be of following data type: String, number, object, array, boolean or null.
+
+
+8. What is minifying JavaScript Code?
+
+The process of removing unnecessary data from code. Keep the minimum required for the code to serve its purpose.
+
+
+9. What is a global variable?
+
+A global variable has a global scope which means it is a variable which can be called for within any scope in your code.
